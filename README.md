@@ -13,6 +13,8 @@ In the cloned repository, replace the file at ```eos/programs/cleos/main.cpp``` 
 
 Compile EOSIO by running ```eos/scripts/eosio_build.sh``` (or whatever for your platform)
 
+The resulting ```cleos``` executable should be at ```eos/build/programs/cleos/cleos```
+
 # Using 
 
 The ```cleos wallet import``` command usually fails when you give it an invalid private key.
